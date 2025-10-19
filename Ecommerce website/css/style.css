@@ -1,0 +1,297 @@
+header{
+	background-color:rgb(15, 64, 223);
+	color:white;
+	justify-content: space-between;
+	display: flex;
+	
+}
+header h2{
+	margin-left: 50px;
+	font-weight:700;
+}
+header ul{
+	list-style-type:none;
+	display: flex;
+	padding: 5px;
+}
+header ul li{
+	text-decoration: none;
+	padding: 5px;
+}
+header ul li a{
+	text-decoration: none;
+	color: white;
+}
+header ul li a:hover{
+	color: yellow;
+	padding: 5px;
+	background-color: black;
+	border-radius: 5px;
+	border: 2px solid white;
+}
+.ul{
+	padding: 3px 25px 0px 0px;
+}
+.img{
+	display: flex;
+	justify-content: center;
+}
+.img img{
+	border-bottom: 5px solid blue;
+	justify-content: center;
+	width: 2497%;
+}
+.img li{
+	width: 50px;
+	place-items: center;
+	list-style-type:none;
+	display: grid;
+}
+.main_heading{
+	text-align: center;
+	color: rgb(24, 95, 236);
+}
+.category ul{
+	list-style-type: none;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: auto auto auto auto auto ;
+	padding: 10px;
+}
+.category ul li{
+	padding: 10px;
+	margin: 10px 50px;
+	border: 2px solid rgb(191, 201, 248);
+	border-radius: 10px;
+	background-color: rgb(201, 238, 237);
+}
+footer{
+	background-color: black;
+	color: rgb(16, 168, 229);
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid blue;
+	margin-bottom: 0%;
+}
+footer p{
+	color: white;
+}
+.links ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+.follow-us{
+	text-align: center;
+	padding: 5px;
+	margin: 2px 170px;
+}
+.follow-us a{
+	text-decoration: none;
+	color: white;
+}
+
+footer ul{
+	list-style-type: none;
+	color: white;
+	padding: 5px;
+}
+.main_div{
+	background-color: rgb(227, 237, 244);
+	width: 100%;
+	
+}
+/* About page */
+.about-section{
+	padding: 50px;
+	background-color: rgb(227, 237, 244);
+}
+.about-section ul li {
+	list-style-type: none;
+}
+
+/* Contact page */
+.overall{
+	display: flex;
+}
+.contact-form-section{
+	background-color: rgb(227, 237, 244);
+	width: 40%;
+	margin: 20px;
+	border-radius: 20px;
+	padding: 30px;
+}
+.contact-form-section form{
+	display: grid;
+	grid-template-columns: auto;
+}
+.contact-form-section form input{
+	border-radius: 5px;
+	border: 2px solid rgb(191, 201, 248);
+	padding: 5px;
+}
+.contact-form-section form textarea{
+	border-radius: 5px;
+	border: 2px solid rgb(191, 201, 248);
+	padding: 10px;}
+.contact-form-section form button{
+	border-radius: 5px;
+	border: 2px solid rgb(191, 201, 248);
+	padding: 10px 0px;
+	background-color: rgb(24, 95, 236);
+	color: white;
+width: 100px;}
+.contact-info-section{
+	background-color: rgb(227, 237, 244);
+	width: 40%;
+	margin: 20px;
+	border-radius: 20px;
+	padding: 30px;
+}
+/*product page*/
+.products{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	margin-left: 50px;
+}
+.cat{
+	
+	background-color: rgb(227, 237, 244);
+	width: 180px;
+	height: 300px;
+border-radius: 10px;
+margin: 10px;
+
+}
+.cat ul li{
+	text-align: left;
+	padding: 2px;
+}
+.pic{
+	border: 2px solid rgb(191, 201, 248);
+	border-radius: 10px;
+	background-color: rgb(227, 237, 244);
+	text-align: center;
+	margin: 20px;
+
+}
+.pic img{
+	width: 100px;
+	padding: 2px 50px 0px 50px;
+	margin: 10px;
+}
+
+.pic  h6{
+	color: blue;
+	text-align: center;
+	margin: 0px ;
+}	
+.pic button{
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	margin: 2px 0px 5px 0px;
+}
+
+.pic p{
+	background-color: red;
+	color: white;
+	font-size: smaller;
+	width: 60px;
+	text-align:end;
+	border-radius: 5px;
+	margin: 5px 5px 0px 200px;
+}
+.H3{
+	text-decoration: underline;
+	color: blue;
+	margin: 20px 0px 0px 50px;
+}
+/*categories */
+.categories{
+	color:rgb(25, 127, 245);
+	text-align: center;
+}
+.categorie ul{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	text-align: center;
+}
+.categorie ul li  button{
+	border-radius: 5px;
+	padding: 5px;
+	background-color: blue;
+	color:white;
+}
+.categorie ul li{
+	list-style-type: none;
+	text-align: center;
+	border-radius: 8px;
+	color: blue;
+	padding: 10px 0px ;
+	margin:20px 70px;
+	background-color: aliceblue;
+}
+/*form page*/
+.forms form {
+	display: grid;
+	background-color: white;
+	border: 1px solid white;
+	padding: 50px;
+	border-radius: 10px;
+	margin: 20px;
+
+}
+.forms{
+	background-color: aliceblue;
+	display: grid;
+	justify-content: center;
+	border: 4px solid black;
+	background-color: rgb(206, 232, 235);
+
+}
+
+#welcome{
+	color: rgb(24, 121, 207);
+	text-align: center;
+	margin: 0px;
+}
+#login{
+	text-align: center;
+	margin: 0px;
+}
+form input{
+	margin: 5px 5px;
+	border-radius: 5px;
+	border: 1px solid black
+}
+form label{
+	margin: 10px 5px 0px 5px;
+}
+#pass{
+
+	margin: 8px 0px;
+display: flex
+}
+#pass input{
+	padding: 5px 35px 5px 0px;
+}
+#pass a{
+	padding: 5px 0px 5px 35px;
+}
+form button{
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: blue;
+	color: white;
+}
+form a{
+	text-decoration: none;
+	color: rgb(3, 122, 212);
+}
+/* register page */
+.pa{
+	display: flex;
+}
